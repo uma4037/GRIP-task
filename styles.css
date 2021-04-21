@@ -1,0 +1,184 @@
+body{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat-bold";
+}
+
+
+p{
+  color:#8f8f8f;
+}
+
+
+/* Heading Section */
+.big-heading{
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: 900;   /*   used this since 'Montserrat-black' was not working  */
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size:3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.container-fluid{
+  padding: 7% 15% ;
+}
+
+/* Sections */
+.colored-section{
+  /* background-color: #ff4c68; */
+  /* background-color: #100d44; */
+  background-color: #0f0e27;
+  color: #fff;
+}
+.white-section{
+  /* background-color: #fff ; */
+  background-color: #f9faff;
+}
+
+
+
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+.navbar-brand:hover{
+  color: #0f0e27;
+}
+
+.nav-item{
+  padding: 0 18px;
+  color: #ffffff;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  color: #000;
+  /*font-family: 'Montserrat-Light';        NOT WORKING */
+}
+.nav-link:hover{
+    color: #ef8172;
+}
+
+/* Donate Buttons */
+.donate-button{
+  margin: 3% 5% 3% 0;
+}
+.donate-button:hover{
+    background-color: #ffaaa7;
+  }
+
+
+/* Modal */
+.modal-body{
+  padding: 50px;
+  background-color: #f9faff;
+}
+
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+  background-image: url("images/bg-image.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+/* Feature Section */
+#features{
+  position: relative ;
+}
+
+.feature-title{
+  font-size:1.5rem;
+}
+
+.feature-box{
+  padding: 7%;
+}
+
+.icon  {
+  /* color: #ef8172; */
+  color: #ffaaa7;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ef8172;
+}
+
+
+
+
+/* Services Section */
+#services{
+    padding:100px;
+    
+}
+.service-heading{
+    color: #ffaaa7;
+}
+.service-text{
+    
+    font-size:2rem;
+    line-height: 1.5;
+    font-weight: bold;
+  }
+  
+  .service-column{
+    padding: 3% 2%;
+  }
+  
+
+/* Causes Section */
+#causes{
+  padding:100px;
+  
+}
+
+.cause-text{
+  font-size:2.6rem;
+  color: #ffaaa7;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.cause-column{
+  padding: 3% 2%;
+}
+
+
+
+
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+
+@media (max-width:1028px){
+
+  #title{
+    text-align: center;
+  }
+
+
+}
+
